@@ -1,0 +1,65 @@
+
+#emails, #socials {
+  display: none;
+}
+#numeryTelefonow { 
+  display: block;
+}
+
+
+.nav {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav li {
+  display: inline-block; 
+  margin-right: 20px; 
+  color: #000; 
+  font-size: 18px; 
+  font-weight: 500; 
+  padding: 5px 10px; 
+  cursor: pointer;
+  border-bottom: 2px solid transparent; 
+}
+
+
+.nav li:hover, .nav li.active {
+  border-bottom: 2px solid #000; /* Podkreślenie dla hover i aktywnego linku */
+}
+
+
+.nav li:last-child {
+  margin-right: 0;
+  
+}
+.contact{
+  margin-top: 5rem;
+  margin-right: 25rem;
+  margin-left: 25rem;
+}
+
+#start{
+  font-size: large;
+}
+#startdwa{
+  font-size: 70px;
+  margin-bottom: 10rem;
+}
+.connav{
+  font-size: large;
+}
+
+hr {
+  margin-top: 2rem; 
+  margin-left: -20px; 
+  border: none; 
+  height: 2px; 
+  background-color: #000; 
+  width: calc(100% + 40px); 
+}
+.big{
+  font-size: 50px;
+  font-weight: 400;
+}
